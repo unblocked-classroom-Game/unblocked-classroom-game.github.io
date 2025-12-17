@@ -6,10 +6,11 @@
     "id": "14e87fab0cbf44b6b3e57ddb77af5941"
   },
   {
-    "name": "2048 Merge Circle",
-    "slug": "2048-merge-circle",
-    "image": "/cache/data/image/game/2048-merge-circle/2048-merge-circle-m186x186.webp",
-    "id": "70ef8d996c70455f97db1d5edcb65554"
+    "id": "1e32715fb8654a999052b665dfb1bc9e",
+    "name": "2048 Classic",
+    "category": "Puzzle",
+    "image": "/cache/images/games/list/5707.jpg",
+    "slug": "2048-classic"
   },
   {
     "name": "Bubble Game 3D",
