@@ -70,7 +70,11 @@ home_page_html = f'''
   </section>
 '''
 
-index_content = template.replace('<div id="app"></div>', f'<div id="app">{home_page_html}</div>')
+
+index_content = template.replace(
+    '<main id="main-content" class="main-content">\n        <!-- Content will be injected here -->\n      </main>',
+    f'<main id="main-content" class="main-content">{home_page_html}</main>'
+)
 with open(os.path.join(BASE_DIR, 'index.html'), 'w', encoding='utf-8') as f:
     f.write(index_content)
 
@@ -115,7 +119,10 @@ for game in games:
     </section>
 '''
 
-    page_content = template.replace('<div id="app"></div>', f'<div id="app">{player_html}</div>')
+    page_content = template.replace(
+        '<main id="main-content" class="main-content">\n        <!-- Content will be injected here -->\n      </main>',
+        f'<main id="main-content" class="main-content">{player_html}</main>'
+    )
 
     # Fix resource paths for subdirectory
     # We need to change ./src/ -> ../src/ and ./public/ -> ../public/
@@ -123,6 +130,9 @@ for game in games:
     page_content = page_content.replace('src="./src/', 'src="../src/')
     page_content = page_content.replace('href="./public/', 'href="../public/')
     page_content = page_content.replace('src="./public/', 'src="../public/')
+    
+    # Fix Sidebar Links for subdirectory
+    page_content = page_content.replace('href="./index.html"', 'href="../index.html"')
 
     with open(os.path.join(GAMES_DIR, f'{slug}.html'), 'w', encoding='utf-8') as f:
         f.write(page_content)

@@ -13,7 +13,36 @@
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <div class="layout-container">
+      <aside class="sidebar">
+        <div class="logo-area">
+          <h1>Portal</h1>
+        </div>
+        <nav class="nav-menu">
+          <a href="./index.html" class="nav-item active">
+            <span class="icon">🏠</span>
+            <span>Home</span>
+          </a>
+          <a href="#" class="nav-item">
+            <span class="icon">🔥</span>
+            <span>Popular</span>
+          </a>
+          <a href="#" class="nav-item">
+            <span class="icon">✨</span>
+            <span>New</span>
+          </a>
+        </nav>
+        <div class="nav-footer">
+          <span class="version">v2.0</span>
+        </div>
+      </aside>
+
+      <main id="main-content" class="main-content">
+        <!-- Content will be injected here -->
+      </main>
+    </div>
+  </div>
   <script type="module" src="./src/main.js"></script>
 </body>
 
