@@ -79,21 +79,90 @@
       <main id="main-content" class="main-content">
         <!-- Content will be injected here -->
 
+        <!-- Pre-Footer About Section -->
+        <section class="pre-footer-about"
+          style="max-width: 1200px; margin: 4rem auto 2rem; padding: 0 2rem; text-align: center;">
+          <h3 style="margin-bottom: 1rem; color: var(--color-primary);">About Modern Game Portal</h3>
+          <p style="color: var(--color-text-dim); max-width: 800px; margin: 0 auto; line-height: 1.6;">
+            We add new games regularly! Check back often to discover fresh content and trending games.
+            Yes, all games are tested for safety and hosted securely. We prioritize user safety and clean gameplay.
+          </p>
+        </section>
+
         <footer class="site-footer"
-          style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--glass-border); display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
-          <div class="footer-col">
-            <h4 style="color: var(--color-primary); margin-bottom: 1rem;">Legal</h4>
-            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-              <a href="./privacy.html" style="color: var(--color-text-dim); text-decoration: none;">Privacy Policy</a>
-              <a href="./terms.html" style="color: var(--color-text-dim); text-decoration: none;">Terms of Service</a>
-              <a href="./contact.html" style="color: var(--color-text-dim); text-decoration: none;">Contact Us</a>
+          style="background: var(--surface); border-top: 1px solid var(--glass-border); padding: 4rem 2rem 2rem; margin-top: 2rem;">
+          <div
+            style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem;">
+
+            <!-- Column 1: Site Links -->
+            <div class="footer-col">
+              <h4 style="color: #fff; margin-bottom: 1.5rem; font-size: 1.1em;">Site Links</h4>
+              <nav style="display: flex; flex-direction: column; gap: 0.8rem;">
+                <a href="./index.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Home</a>
+                <a href="./index.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">All Games</a>
+                <a href="./about.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">About Us</a>
+                <a href="./contact.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Contact Us</a>
+              </nav>
+            </div>
+
+            <!-- Column 2: Game Categories -->
+            <div class="footer-col">
+              <h4 style="color: #fff; margin-bottom: 1.5rem; font-size: 1.1em;">Game Categories</h4>
+              <nav style="display: flex; flex-direction: column; gap: 0.8rem;">
+                <!-- Linking to home for now as filter pages don't exist yet -->
+                <a href="./index.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Action</a>
+                <a href="./index.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Arcade</a>
+                <a href="./index.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Puzzle</a>
+                <a href="./index.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Racing</a>
+                <a href="./index.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Sports</a>
+              </nav>
+            </div>
+
+            <!-- Column 3: Popular Games -->
+            <div class="footer-col">
+              <h4 style="color: #fff; margin-bottom: 1.5rem; font-size: 1.1em;">Popular Games</h4>
+              <nav style="display: flex; flex-direction: column; gap: 0.8rem;">
+                <a href="./games/tunnel-road.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Tunnel Road</a>
+                <a href="./games/2048-classic.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">2048 Classic</a>
+                <a href="./games/bubble-game-3d.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Bubble Game
+                  3D</a>
+                <a href="./games/merge-flowers.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Merge Flowers</a>
+              </nav>
+            </div>
+
+            <!-- Column 4: Legal -->
+            <div class="footer-col">
+              <h4 style="color: #fff; margin-bottom: 1.5rem; font-size: 1.1em;">Legal</h4>
+              <nav style="display: flex; flex-direction: column; gap: 0.8rem;">
+                <a href="./privacy.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Privacy
+                  Policy</a>
+                <a href="./terms.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Terms of
+                  Service</a>
+                <a href="./contact.html"
+                  style="color: var(--color-text-dim); text-decoration: none; transition: color 0.2s;">Contact</a>
+              </nav>
             </div>
           </div>
-          <div class="footer-col">
-            <h4 style="color: var(--color-primary); margin-bottom: 1rem;">About</h4>
-            <p style="color: var(--color-text-dim); font-size: 0.9rem; line-height: 1.6;">
-              Modern Game Portal offers the best free online games. optimized for all devices.
-            </p>
+
+          <!-- Bottom Bar -->
+          <div
+            style="max-width: 1200px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05); text-align: center; color: var(--color-text-dim); font-size: 0.9em;">
+            <p>&copy; 2025 Modern Game Portal. All rights reserved.</p>
           </div>
         </footer>
       </main>
