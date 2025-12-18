@@ -3,175 +3,232 @@
     "name": "Tunnel Road",
     "slug": "tunnel-road",
     "image": "./public/cache/data/image/game/tunnel-road/tunnel-road.jpg",
-    "id": "14e87fab0cbf44b6b3e57ddb77af5941"
+    "id": "14e87fab0cbf44b6b3e57ddb77af5941",
+    "description": "Experience the thrill of speed in Tunnel Road. Navigate through endless futuristic tunnels, avoid obstacles, and set new high scores in this fast-paced arcade game.",
+    "category": "Arcade"
   },
   {
     "id": "713d172e6d9645bab2407c23afb038c8",
     "name": "2048 Classic",
     "category": "Puzzle",
     "image": "./public/cache/data/image/game/2048-classic/2048-classic.jpeg",
-    "slug": "2048-classic"
+    "slug": "2048-classic",
+    "description": "Play the original 2048 Classic puzzle game. Slide tiles to combine matching numbers and reach the 2048 tile. A simple yet addictive brain teaser."
   },
   {
     "name": "Bubble Game 3D",
     "slug": "bubble-game-3d",
     "image": "./public/cache/data/image/game/bubble-game-3d/bubble-game-3d.jpg",
-    "id": "0212ccaec99b48ef876abbc86c326eac"
+    "id": "0212ccaec99b48ef876abbc86c326eac",
+    "description": "Shoot and pop bubbles in a 3D environment with Bubble Game 3D. Match colors, clear the board, and enjoy a modern twist on the classic bubble shooter genre.",
+    "category": "Arcade"
   },
   {
     "name": "Merge Flowers",
     "slug": "merge-flowers",
     "image": "./public/cache/data/image/game/merge-flowers/merge-flowers.jpg",
-    "id": "2e5863b7cc10444a88f72c81e74502f1"
+    "id": "2e5863b7cc10444a88f72c81e74502f1",
+    "description": "Create a beautiful garden in Merge Flowers. Combine identical flowers to discover new species and expand your floral collection in this relaxing game.",
+    "category": "Arcade"
   },
   {
     "id": "8d7c235d86504e9786f81e2a76c59872",
     "name": "Weapons and Ragdolls",
     "image": "./public/cache/data/image/game/weapons-and-ragdolls/weapons-and-ragdolls.jpg",
-    "slug": "weapons-and-ragdolls"
+    "slug": "weapons-and-ragdolls",
+    "description": "Unleash chaos in Weapons and Ragdolls. Experiment with various weapons on ragdoll physics characters for hilarious and action-packed moments.",
+    "category": "Arcade"
   },
   {
     "id": "ef639508d36e4a2ab52797cd4faa6272",
     "name": "Arcade Rope",
     "image": "./public/cache/data/image/game/arcade-rope/arcade-rope.jpg",
-    "slug": "arcade-rope"
+    "slug": "arcade-rope",
+    "description": "Swing through levels like a pro in Arcade Rope. Master the physics of swinging and timing to avoid hazards and reach the finish line.",
+    "category": "Arcade"
   },
   {
     "id": "d684c36172194e42aa6c7e99fde303ef",
     "name": "Pizza Tycoon",
     "image": "./public/cache/data/image/game/pizza-tycoon/pizza-tycoon.jpg",
-    "slug": "pizza-tycoon"
+    "slug": "pizza-tycoon",
+    "description": "Build your pizza empire in Pizza Tycoon. Manage your pizzeria, serve hungry customers, and upgrade your shop to become the ultimate pizza chef.",
+    "category": "Arcade"
   },
   {
     "id": "4356de4dcf67424cb5f069797454b786",
     "name": "Egg Adventure 2",
     "image": "./public/cache/data/image/game/egg-adventure-2/egg-adventure-2.jpg",
-    "slug": "egg-adventure-2"
+    "slug": "egg-adventure-2",
+    "description": "Join the egg on a new journey in Egg Adventure 2. Solve puzzles, overcome obstacles, and guide the egg to safety in this charming platformer.",
+    "category": "Arcade"
   },
   {
     "id": "bc2f52c2d9d04e41aee48bef01075d22",
     "name": "Obby On a Bike",
     "image": "./public/cache/data/image/game/obby-on-a-bike/obby-on-a-bike.jpg",
-    "slug": "obby-on-a-bike"
+    "slug": "obby-on-a-bike",
+    "description": "Test your biking skills in Obby On a Bike. Navigate through challenging obstacle courses on your bicycle and prove your parkour mastery.",
+    "category": "Arcade"
   },
   {
     "id": "427f3a980dfc48e69e4329acdb5b9d8b",
     "name": "Cat Chaos Simulator",
     "image": "./public/cache/data/image/game/cat-chaos-simulator/cat-chaos-simulator.jpg",
-    "slug": "cat-chaos-simulator"
+    "slug": "cat-chaos-simulator",
+    "description": "Embrace the life of a mischievous cat in Cat Chaos Simulator. Explore, knock things over, and cause mayhem in this fun simulation game.",
+    "category": "Arcade"
   },
   {
     "id": "c2219c774f3f40649983f09931bee126",
     "name": "Dynamons 11",
     "image": "./public/cache/data/image/game/dynamons-11/dynamons-11.jpg",
-    "slug": "dynamons-11"
+    "slug": "dynamons-11",
+    "description": "Catch and train unique creatures in Dynamons 11. Battle other trainers, evolve your Dynamons, and become the greatest captain in this RPG adventure.",
+    "category": "Arcade"
   },
   {
     "id": "63a0166eac1c45cc9dcd91d4bd54cb70",
     "name": "Aqua Blitz 2",
     "image": "./public/cache/data/image/game/aqua-blitz-2/aqua-blitz-2.jpeg",
-    "slug": "aqua-blitz-2"
+    "slug": "aqua-blitz-2",
+    "description": "Dive into the underwater world of Aqua Blitz 2. Match 3 or more aquatic items to clear levels and unlock treasures in this refreshing puzzle game.",
+    "category": "Arcade"
   },
   {
     "id": "7356de5842a94c8a8039530624e496db",
     "name": "Hidden Easter Egg Hunt",
     "image": "./public/cache/data/image/game/hidden-easter-egg-hunt/hidden-easter-egg-hunt.jpg",
-    "slug": "hidden-easter-egg-hunt"
+    "slug": "hidden-easter-egg-hunt",
+    "description": "Search for hidden Easter eggs in various scenes with Hidden Easter Egg Hunt. Sharpen your observation skills and find all the hidden items.",
+    "category": "Arcade"
   },
   {
     "id": "13215160b460481492b582a5081b49a1",
     "name": "Parkour Block 7",
     "image": "./public/cache/data/image/game/parkour-block-7/parkour-block-7.jpg",
-    "slug": "parkour-block-7"
+    "slug": "parkour-block-7",
+    "description": "Jump and climb through blocky worlds in Parkour Block 7. Navigate difficult terrain and reach the portal in this Minecraft-inspired parkour game.",
+    "category": "Arcade"
   },
   {
     "id": "4a4b0c88f736416abb6f6829d9841c9d",
     "name": "Solitaire Mahjong",
     "image": "./public/cache/data/image/game/solitaire-mahjong/solitaire-mahjong.jpg",
-    "slug": "solitaire-mahjong"
+    "slug": "solitaire-mahjong",
+    "description": "Enjoy a classic game of Solitaire Mahjong. Match pairs of tiles to clear the board and relax with this timeless puzzle game.",
+    "category": "Arcade"
   },
   {
     "id": "c084653fe0b3484681d9b268663675bf",
     "name": "Uphill Rush 13",
     "image": "./public/cache/data/image/game/uphill-rush-13/uphill-rush-13.jpg",
-    "slug": "uphill-rush-13"
+    "slug": "uphill-rush-13",
+    "description": "Race through water parks and roller coasters in Uphill Rush 13. Perform stunts, collect coins, and finish the course as fast as possible.",
+    "category": "Arcade"
   },
   {
     "id": "e1e32230bdf040d69f4e367015e1c527",
     "name": "Snow Rush 3D",
     "image": "./public/cache/data/image/game/snow-rush-3d/snow-rush-3d.jpg",
-    "slug": "snow-rush-3d"
+    "slug": "snow-rush-3d",
+    "description": "Slide down snowy slopes in Snow Rush 3D. Avoid trees and rocks, collect gifts, and see how far you can go in this winter sports game.",
+    "category": "Arcade"
   },
   {
     "id": "f7106e2740504e31be69410a12304172",
     "name": "Doge's Battle Royale",
     "image": "./public/cache/data/image/game/doges-battle-royale/doges-battle-royale.jpg",
-    "slug": "doges-battle-royale"
+    "slug": "doges-battle-royale",
+    "description": "Fight for survival in Doge's Battle Royale. Compete against other Doges, collect weapons, and be the last one standing in this quirky action game.",
+    "category": "Arcade"
   },
   {
     "id": "c149b003501745239f1cc087f554ecd3",
     "name": "Brick Match",
     "image": "./public/cache/data/image/game/brick-match/brick-match.jpg",
-    "slug": "brick-match"
+    "slug": "brick-match",
+    "description": "Challenge your mind with Brick Match. Fit blocks together to complete lines and score points in this addictive puzzle game.",
+    "category": "Arcade"
   },
   {
     "id": "b2b454793e5d4aad9dfd65afdff946f2",
     "name": "One Line",
     "image": "./public/cache/data/image/game/one-line/one-line.jpg",
-    "slug": "one-line"
+    "slug": "one-line",
+    "description": "Connect the dots with a single continuous line in One Line. Solve increasingly difficult geometric puzzles to train your brain.",
+    "category": "Arcade"
   },
   {
     "id": "7409155d0a5d42408f913f58f566b8af",
     "name": "Draw Weapon Fight Party",
     "image": "./public/cache/data/image/game/draw-weapon-fight-party/draw-weapon-fight-party.jpg",
-    "slug": "draw-weapon-fight-party"
+    "slug": "draw-weapon-fight-party",
+    "description": "Draw your own weapons and fight in Draw Weapon Fight Party. Use creativity to defeat opponents in this unique combat game.",
+    "category": "Arcade"
   },
   {
     "id": "b7fd521a631c4fe2a9bc97de3b89bb2b",
     "name": "Capybara Suika",
     "image": "./public/cache/data/image/game/capybara-suika/capybara-suika.jpg",
-    "slug": "capybara-suika"
+    "slug": "capybara-suika",
+    "description": "Combine cute animals in Capybara Suika. Drop and merge characters to create the ultimate Capybara in this watermelon-style puzzle game.",
+    "category": "Arcade"
   },
   {
     "id": "70ef8d996c70455f97db1d5edcb65554",
     "name": "2048 Merge Circle",
     "image": "./public/cache/data/image/game/2048-merge-circle/2048-merge-circle.jpg",
-    "slug": "2048-merge-circle"
+    "slug": "2048-merge-circle",
+    "description": "A circular twist on the classic 2048. Shoot numbers into a circle and merge them to reach high scores in 2048 Merge Circle.",
+    "category": "Arcade"
   },
   {
     "id": "5495603c57d64816aba3bc9d91c17123",
     "name": "Robby: Bomberman",
     "image": "./public/cache/data/image/game/robby-bomberman/robby-bomberman.jpg",
-    "slug": "robby-bomberman"
+    "slug": "robby-bomberman",
+    "description": "Place bombs and blast enemies in Robby: Bomberman. Strategize your moves to trap opponents and survive in this explosive arcade game.",
+    "category": "Arcade"
   },
   {
     "id": "017920ea7a7a41cebd5a05bb4f9fa994",
     "name": "Two Archers: Bow Duel",
     "image": "./public/cache/data/image/game/two-archers-bow-duel/two-archers-bow-duel.jpg",
-    "slug": "two-archers-bow-duel"
+    "slug": "two-archers-bow-duel",
+    "description": "Test your aim in Two Archers: Bow Duel. Compete in archery battles, hit targets, and defeat your rival with precision shots.",
+    "category": "Arcade"
   },
   {
     "id": "99724b7d35664539a172e389933a8f06",
     "name": "Zig Snake",
     "image": "./public/cache/data/image/game/zig-snake/zig-snake.jpg",
-    "slug": "zig-snake"
+    "slug": "zig-snake",
+    "description": "Guide the snake through a zigzag path in Zig Snake. React quickly to turns, collect food, and grow your snake without falling off.",
+    "category": "Arcade"
   },
   {
     "id": "dc9ae8ce8bd749b59bd7dde19b4711e9",
     "name": "Zen Master - 3 tiles",
     "image": "./public/cache/data/image/game/zen-master-3-tiles/zen-master-3-tiles.jpg",
-    "slug": "zen-master-3-tiles"
+    "slug": "zen-master-3-tiles",
+    "description": "Find peace and match tiles in Zen Master - 3 tiles. A relaxing tile-matching game designed to calm your mind and challenge your focus.",
+    "category": "Arcade"
   },
   {
     "id": "5f38d8cb0081403383795e8d67f7e38d",
     "name": "Lollipop Stack Run",
     "image": "./public/cache/data/image/game/lollipop-stack-run/lollipop-stack-run.jpg",
-    "slug": "lollipop-stack-run"
+    "slug": "lollipop-stack-run",
+    "description": "Build delicious lollipop stacks in Lollipop Stack Run. Collect ingredients, avoid obstacles, and serve sweet treats at the finish line.",
+    "category": "Arcade"
   },
   {
     "id": "78399bc84b4c4a0c97c89abf73d4edeb",
     "name": "Physics Balls",
     "image": "./public/cache/data/image/game/physics-balls/physics-balls.jpg",
-    "slug": "physics-balls"
+    "slug": "physics-balls",
+    "description": "Shoot balls and break bricks in Physics Balls. Utilize physics and angles to clear the screen in this satisfying arcade game.",
+    "category": "Arcade"
   }
 ]

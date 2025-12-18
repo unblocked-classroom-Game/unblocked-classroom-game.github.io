@@ -1,7 +1,14 @@
 import { getAllGames } from '../store.js';
 import { renderGameCard } from '../components/GameCard.js';
+import { updateSEO } from '../utils/seo.js';
 
 export function renderHome(container) {
+  updateSEO({
+    title: 'Modern Game Portal - Play Best Free Online Games',
+    description: 'Play the best free online games at Modern Game Portal. Discover arcade, puzzle, and action games in a premium, ad-free environment. Play now without downloads!',
+    image: './public/cache/data/image/options/geometry_dash.png',
+    url: 'https://pingwin-w.github.io/GameBLOCK.github.io/'
+  });
   const games = getAllGames();
   console.log("RenderHome: Games to render:", games);
 

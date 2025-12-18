@@ -1,4 +1,5 @@
 import { getGameBySlug } from '../store.js';
+import { updateSEO } from '../utils/seo.js';
 
 export function renderPlayer(container, slug) {
   const game = getGameBySlug(slug);
@@ -9,6 +10,13 @@ export function renderPlayer(container, slug) {
     return;
   }
   console.log("Rendering player for:", game);
+
+  updateSEO({
+    title: `${game.name} - Play Online for Free`,
+    description: game.description || `Play ${game.name} online for free. one of the best ${game.category || 'Arcade'} games. No downloads required!`,
+    image: game.image,
+    url: window.location.href
+  });
 
   try {
     const section = document.createElement('section');
