@@ -13,6 +13,8 @@ async function init() {
     path.includes('terms') ||
     path.includes('about') ||
     path.includes('contact') ||
+    path.includes('popular') ||
+    path.includes('new') ||
     path.includes('/games/')) {
     console.log('Static page detected, skipping SPA init');
     return;
