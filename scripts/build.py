@@ -118,6 +118,12 @@ def generate_grid_page(games_list, page_title, output_filename, active_nav='', s
     page_content = page_content.replace('%KEYWORDS%', seo_keywords)
     page_content = page_content.replace('%CANONICAL_URL%', seo_url)
 
+    # CRITICAL: Remove main.js from popular/new pages to prevent SPA from overwriting static content
+    # We want these pages to be pure static HTML
+    if output_filename in ['popular.html', 'new.html'] or output_filename.startswith('games/'):
+         page_content = page_content.replace('<script type="module" src="./src/main.js"></script>', '')
+         page_content = page_content.replace('<script type="module" src="../src/main.js"></script>', '') # For subdirectories
+
     with open(os.path.join(BASE_DIR, output_filename), 'w', encoding='utf-8') as f:
         f.write(page_content)
 
