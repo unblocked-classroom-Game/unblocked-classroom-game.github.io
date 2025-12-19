@@ -22,12 +22,17 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-main);
   background: radial-gradient(circle at top center, #1a1a3a 0%, var(--color-bg-dark) 80%);
   color: var(--color-text);
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #app {
