@@ -80,7 +80,18 @@ export function renderPlayer(container, slug) {
 
     // Create iframe programmatically
     const iframe = document.createElement('iframe');
-    const gameUrl = `https://html5.gamedistribution.com/${game.id}/`;
+
+    let gameUrl;
+    // Check if ID is a GameDistribution GUID (32 hex chars). 
+    // If not, assume it's a local game residing in /games/{slug}/
+    const isGameDistribution = /^[a-f0-9]{32}$/i.test(game.id);
+
+    if (isGameDistribution) {
+      gameUrl = `https://html5.gamedistribution.com/${game.id}/`;
+    } else {
+      // Local game
+      gameUrl = `games/${game.slug}/index.html`;
+    }
 
     iframe.src = gameUrl;
     iframe.id = 'game-frame';
@@ -93,6 +104,7 @@ export function renderPlayer(container, slug) {
     iframe.style.background = "white";
 
     // Sandbox options
+    // For local games, we might need slightly different permissions, but this set is generally permissive enough.
     iframe.sandbox = "allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock allow-top-navigation-by-user-activation";
     iframe.allow = "autoplay; fullscreen; monetization; clipboard-write; web-share; accelerometer; magnetometer; gyroscope; display-capture";
 
